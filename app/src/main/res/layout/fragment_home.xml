@@ -59,6 +59,12 @@
             tools:layout_editor_absoluteX="192dp"
             tools:layout_editor_absoluteY="269dp" />
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="411dp" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
