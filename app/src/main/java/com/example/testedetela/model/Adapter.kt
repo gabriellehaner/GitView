@@ -1,5 +1,6 @@
 package com.example.testedetela.model
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -33,6 +34,7 @@ class RepositoryListAdapter(
         private val modelLanguage = itemView.linguagemrep
         private val modelLink = itemView.linkrepository
 
+        @SuppressLint("SuspiciousIndentation")
         fun bind(model: ModelRepository, onClicked: (ModelRepository) -> Unit){
             modelNome.text = model.name
             modelLanguage.text = model.language

@@ -40,7 +40,7 @@
         android:layout_marginTop="84dp"
         android:background="@drawable/arredondar"
         android:ems="10"
-        android:hint="Usuário no GitHub"
+        android:text="gabriellehaner"
         android:inputType="textPersonName"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"

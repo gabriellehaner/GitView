@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -31,34 +31,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="10dp">
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
 
                 <TextView
                     android:id="@+id/nomeuser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Nome do Repositório"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
                     android:textColor="@color/gray"
                     android:textSize="19sp" />
 
                 <TextView
                     android:id="@+id/linguagemrep"
-                    android:layout_width="331dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Linguagem do Repositório"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textAlignment="center"
+                    android:textColor="@color/purple_500"
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/linkrepository"
-                    android:layout_width="331dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Clique aqui para acessar"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="15sp"/>
+                    android:textSize="15sp" />
 
 
             </LinearLayout>

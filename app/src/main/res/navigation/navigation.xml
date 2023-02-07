@@ -20,6 +20,7 @@
         android:name="com.example.testedetela.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
+
         <argument
             android:name="user"
             app:argType="com.example.testedetela.model.Users" />
