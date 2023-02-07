@@ -9,12 +9,11 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="208dp"
-        android:layout_height="229dp"
-        android:layout_marginTop="148dp"
-        android:src="@drawable/githubicon"
+        android:layout_width="328dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/gitviewl"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,11 +36,11 @@
         android:id="@+id/editTextUsuario"
         android:layout_width="323dp"
         android:layout_height="65dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/arredondar"
         android:ems="10"
-        android:text="gabriellehaner"
         android:inputType="textPersonName"
+        android:text="gabriellehaner"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
